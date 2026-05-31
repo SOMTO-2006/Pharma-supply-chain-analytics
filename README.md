@@ -53,6 +53,11 @@ The intelligence layer utilizes custom DAX measures built to handle data sparsit
 ### Core Calculations Include:
 * **Output Variance:** Establishes the exact delta between manufacturing scheduling expectations and absolute floor realities.
 * **Zero-Fill Handling:** Implements optimization functions to bypass blank data blocks within sparse matrix rows, replacing visual voids with structural `0` markers to ensure dashboard cleanliness.
+* **Fulfillment Rate:** Tracks customer service level execution by evaluating actual volume supplied against true market prescription demand. It incorporates internal boundaries ensuring supply ceilings do not artificially inflate fulfillment beyond 100%.
+* **Output Variance:** Establishes the absolute physical delta between manufacturing schedule expectations and actual factory floor realities. A negative figure immediately signals production friction or line inefficiencies.
+* **Material Wastage %:** Quantifies manufacturing yield optimization by isolating the volume of scrapped or wasted physical product relative to the total actual output volume produced.
+* **Stock-out Risk:** Dynamically evaluates distribution vulnerabilities by comparing the remaining supply buffers against critical safety inventory thresholds (set at 15% of demand), generating binary warning flags for high-risk assets.
+* **Average Transit Delays:** Tracks logistical execution and dispatch bottlenecks by calculating the true calendar day variance between actual arrival timestamps and original expected shipment arrival baselines.
 
 ![DAX Implementation](https://github.com/SOMTO-2006/Pharma-supply-chain-analytics/blob/main/Pharma%20Dashboard%20Dax%20View.png)
 
