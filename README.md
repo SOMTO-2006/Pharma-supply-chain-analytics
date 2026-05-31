@@ -42,7 +42,7 @@ To achieve true diagnostic capability, the data architecture relies on a clean *
 * **Dimension Tables:** Includes a decoupled **DateTable** for advanced Time-Intelligence calculations, and standard product dimension mapping.
 * **Relationship Integrity:** Configured with strict `1:Many (1:*)` relationships utilizing single-directional filtering to preserve data lineage and prevent double-counting of volumes across intersecting dimensions.
 
-![Data Model Schema](Assets/Pharma%20Dashboard%20Data%20Model.png)
+![Data Model Schema](https://github.com/SOMTO-2006/Pharma-supply-chain-analytics/blob/main/Pharma%20Dashboard%20Data%20Model.png)
 
 ---
 
@@ -54,7 +54,7 @@ The intelligence layer utilizes custom DAX measures built to handle data sparsit
 * **Output Variance:** Establishes the exact delta between manufacturing scheduling expectations and absolute floor realities.
 * **Zero-Fill Handling:** Implements optimization functions to bypass blank data blocks within sparse matrix rows, replacing visual voids with structural `0` markers to ensure dashboard cleanliness.
 
-![DAX Implementation](Assets/Pharma%20Dashboard%20Dax%20View.png)
+![DAX Implementation](https://github.com/SOMTO-2006/Pharma-supply-chain-analytics/blob/main/Pharma%20Dashboard.png)
 
 ---
 
