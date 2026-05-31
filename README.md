@@ -54,7 +54,7 @@ The intelligence layer utilizes custom DAX measures built to handle data sparsit
 * **Output Variance:** Establishes the exact delta between manufacturing scheduling expectations and absolute floor realities.
 * **Zero-Fill Handling:** Implements optimization functions to bypass blank data blocks within sparse matrix rows, replacing visual voids with structural `0` markers to ensure dashboard cleanliness.
 
-![DAX Implementation](https://github.com/SOMTO-2006/Pharma-supply-chain-analytics/blob/main/Pharma%20Dashboard.png)
+![DAX Implementation](https://github.com/SOMTO-2006/Pharma-supply-chain-analytics/blob/main/Pharma%20Dashboard%20Dax%20View.png)
 
 ---
 
