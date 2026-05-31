@@ -30,7 +30,7 @@ The dashboard is laid out in a strict hierarchy optimized for rapid executive co
 * **Factory Efficiency Gauge:** Tracks current plant utilization sitting at 78%, visualizing room for throughput optimization.
 * **Geographic & Drug Status Matrix:** Deep-dive operational table tracking Drug Status across regions (`EU France`, etc.), filtered dynamically by a dedicated custom time slicer.
 
-![Dashboard Overview](Assets/Pharma%20Dashboard.png)
+![Dashboard Overview](https://github.com/SOMTO-2006/Pharma-supply-chain-analytics/blob/main/Pharma%20Dashboard.png)
 
 ---
 
